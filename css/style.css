@@ -62,7 +62,7 @@
 
 /* BODY */
 body {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     line-height: 1.6;
     background-color: #f4f4f4;
     margin: 0;
@@ -125,6 +125,26 @@ section {
     box-sizing: border-box;
     border-radius: 8px;
     border: 2px solid #25424c;
+}
+
+.funFactsImage {
+    float: right;
+    margin: 40px 20px 20px 0;
+    max-width: 300px;
+    height: auto;
+}
+
+.funfactsContainer {
+    display: flex;
+    align-items: flex-start;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: #25424c;
+    padding: 20px;
+    margin: 20px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    border: 2px solid #25424c;
+    overflow: hidden;
 }
 
 sup {
@@ -225,10 +245,18 @@ table td {
 #formContainer input[type="submit"] {
     background-color: #25424c;
     color: white;
-    padding: 10px 20px;
+    padding: 15px 30px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
+    border-radius: 8px;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+#formContainer input[type="submit"]:hover {
+    background-color: #e56e38;
+    border-radius: 8px;
+    transform: scale(1.1);
 }
 
 .hidden {
