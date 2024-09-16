@@ -13,6 +13,7 @@
         <!-- BANNER -->
         <div class="bannerContainer">
             <img src="images/mountainview.jpg" alt="View of a mountain and a lake">
+            <div class="bannerText">The State of Washington</div>
         </div>
 
         <img src="images/icon.png" alt="Icon representing the State of Washington" class="websiteIcon">
@@ -33,10 +34,9 @@
         <!-- CONTENT START-->
         <div class="contentContainer">
             <h1>Visit us in Washington!</h1>
-            <img src="images/visitus.jpg" alt="Yellow image with the words 'visit us'">
 
             <section>
-                <p>So you're thinking of visiting Washington? Great! We have a list of suggestions for places to help you get off on the right foot!</p>
+                <p>So you're thinking of visiting Washington? Great! We have a list of suggestions for places to help you get off on the right foot!<sup>1</sup></p>
 
                 <table>
                     <tr>
@@ -80,14 +80,15 @@
                     <li>Washington produces more apples than any other state in the country. The state is also known for producing red raspberries, spearmint oil, sweet cherries, and more.</li>
                     <li>With more than 3,000 glaciers, Washington is the most glaciated of the 48 contiguous states. There are 25 major glaciers on Mount Rainier alone.</li>
                     <li>Lake Chelan is the deepest lake in the State of Washington and the third deepest lake in the country. The lakes lowest point is 118 meters below sea level. In the summer, the lake is a popular destination for water recreation.</li>
-                    <li>At low tide, the San Juan Islands archipelago in San Juan County can feature as many as 170 named islands and rocks, although not all are big enough to inhabit. The main islands of San Juan, Orcas, and Lopez are most frequented by visitors.</li>
+                    <li>At low tide, the San Juan Islands archipelago in San Juan County can feature as many as 170 named islands and rocks, although not all are big enough to inhabit. The main islands of San Juan, Orcas, and Lopez are most frequented by visitors.<sup>2</sup></li>
                 </ol>
             </section>
         </div>
         <!-- CONTENT END -->
 
         <!-- FORM -->
-        <div class="formWrapper">
+        <div class="visitUs" id="visitUs">
+            <img src="images/visitus.jpg" alt="Yellow image with the words 'visit us'" class="formImage">
             <div class="formContainer" id="formContainer">
                 <form action="/my-dummy-page" method="post">
                     <p>
@@ -121,8 +122,12 @@
 
         <!-- ASIDE -->
         <div class="asideContainer">
-            <aside>
-                <p>&copy; 2021 Washington, USA</p>
+            <aside class="references">
+                <h2>References</h2>
+                    <ul>
+                        <li><a href="https://travel.usnews.com/rankings/best-places-to-visit-in-washington-state/" target="_blank">U.S. News Travel</a></li>
+                        <li><a href="https://stateofwatourism.com/wander-here-19-interesting-facts-about-the-state-of-washington/" target="_blank">Washington State Tourism</a></li>
+                    </ul>
             </aside>
         </div>
         <!-- END ASIDE -->
